@@ -11,8 +11,16 @@ matching the controls is generated.  On some user action, the next random flashc
 shown.  Optionally, the "user action" is playing the given flashcard (detected via MIDI.)
 The average time per flaschard is displayed, as a proxy for a grade or score.
 
-Todo:
-- [ ] install node.js & npm (and document as requirement in README)
+## Setup
+
+- Install nvm (per your OS)
+- Install node.js & npm:
+  - `nvm i lts` # lts = long-term stable
+  - `nvm use newest`
+
+## TODO
+
+- [x] install node.js & npm (and document as requirement in README)
 - [ ] learn how to import a javascript package (https://stackoverflow.com/questions/68528718/javascript-import-npm-packages)
 - [ ] trivial application of https://www.npmjs.com/package/@stringsync/musicxml
 
