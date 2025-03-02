@@ -13,10 +13,16 @@ The average time per flaschard is displayed, as a proxy for a grade or score.
 
 ## Setup
 
+### Setup Node
 - Install nvm (per your OS)
 - Install node.js & npm:
   - `nvm i lts` # lts = long-term stable
   - `nvm use newest`
+
+### Dependencies
+- `npm install parcel-bundler -D`
+- `npm install @stringsync/musicxml@0.3.0`
+- `npm audit fix`
 
 ## TODO
 
