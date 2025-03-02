@@ -54447,10 +54447,19 @@ __exportStar(require("./MusicXML"), exports);
 
 var _musicxml = require("@stringsync/musicxml");
 function show_score() {
-  var musicXml = _musicxml.MusicXML.createPartwise();
-  var root = musicXml.getRoot();
-  console.log(root);
-  // console.log(root.isScorePartwise(root)); // true
+  var score = _musicxml.MusicXML.createPartwise();
+  var root = score.getRoot();
+  console.log(score.serialize());
+  var note = new _musicxml.elements.Note();
+  var measure = new _musicxml.elements.MeasurePartwise({
+    attributes: {
+      number: '1',
+      implicit: 'no'
+    }
+  });
+  var part = new _musicxml.elements.PartPartwise([measure]);
+  root.setParts([part]);
+  console.log(score.serialize()); // output same as above
 }
 show_score();
 },{"@stringsync/musicxml":"node_modules/@stringsync/musicxml/dist/index.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
@@ -54478,7 +54487,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52213" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54165" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
