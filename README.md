@@ -25,9 +25,30 @@ The average time per flaschard is displayed, as a proxy for a grade or score.
 - `npm install @stringsync/musicxml@0.3.0`
 - `npm audit fix`
 
+## HTML index files (temporary)
+### setup
+
+```bash
+pip install -r requirements.txt
+```
+
+If at anytime during development you install more dependencies for the projects, you can run the following to add them to the requirements.txt.
+
+```bash
+pip install -r requirements.txt
+pip freeze > requirements.txt
+```
+
+### Rebuild indexes after importing from `music-generator` repo
+
+```
+python mkindex.py output/html
+```
+
 ## TODO
 
 - [x] install node.js & npm (and document as requirement in README)
 - [x] learn how to import a javascript package (https://stackoverflow.com/questions/68528718/javascript-import-npm-packages)
+- [x] build htmll indexes
 - [ ] trivial application of https://www.npmjs.com/package/@stringsync/musicxml
 
