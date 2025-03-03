@@ -18,6 +18,7 @@ The average time per flaschard is displayed, as a proxy for a grade or score.
 - Install node.js & npm:
   - `nvm i lts` # lts = long-term stable
   - `nvm use newest`
+  - `npm install -g typescript`
 
 ### Dependencies
 - `npm install parcel-bundler -D`

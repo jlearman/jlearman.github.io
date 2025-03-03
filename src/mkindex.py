@@ -68,8 +68,7 @@ INDEX_TEMPLATE = r"""
 """
 
 EXCLUDED = ['index.html']
-
-import os
+9
 import argparse
 
 # May need to do "pip install mako"
