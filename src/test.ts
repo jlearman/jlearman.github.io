@@ -10,7 +10,6 @@ function show_score() {
     const part = new elements.PartPartwise([measure])
     root.setParts([part])
     console.log(score.serialize()) // output same as above
-
 }
 
 show_score();
