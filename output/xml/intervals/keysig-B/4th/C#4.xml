@@ -16,12 +16,12 @@
     </scaling>
   </defaults>
   <part-list>
-    <score-part id="P87107d3156d4f723ddd1e12d91d46d26">
+    <score-part id="P2535db61fe8238763a986f5f045c0b1a">
       <part-name />
     </score-part>
   </part-list>
   <!--=========================== Part 1 ===========================-->
-  <part id="P87107d3156d4f723ddd1e12d91d46d26">
+  <part id="P2535db61fe8238763a986f5f045c0b1a">
     <!--========================= Measure 1 ==========================-->
     <measure implicit="no" number="1">
       <attributes>
@@ -40,7 +40,7 @@
       </attributes>
       <note>
         <pitch>
-          <step>C</step>
+          <step>F</step>
           <alter>1</alter>
           <octave>4</octave>
         </pitch>
@@ -50,7 +50,7 @@
       <note>
         <chord />
         <pitch>
-          <step>F</step>
+          <step>C</step>
           <alter>1</alter>
           <octave>4</octave>
         </pitch>
