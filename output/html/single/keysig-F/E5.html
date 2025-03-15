@@ -20,7 +20,7 @@
                 darkMode: true,
                 drawingParameters: "compacttight"
             });
-            osmd.load("/output/xml/single/keysig-F/E5.xml").then(function() {
+            osmd.load("http://localhost:8000/output/xml/single/keysig-F/E5.xml").then(function() {
                 osmd.render();
             });
         });

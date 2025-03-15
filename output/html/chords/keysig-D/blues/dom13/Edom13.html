@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>fcgen-chord - Music Generator</title>
+    <title>fcset-chord - Music Generator</title>
     <link rel="stylesheet" type="text/css" href="/src/styles.css">
 </head>
 <body>
-    <h1>fcgen-chord</h1>
+    <h1>fcset-chord</h1>
     <h2>E13 blues voicing in D</h2>
     <div id="osmdContainer"></div>
 
@@ -20,7 +20,7 @@
                 darkMode: true,
                 drawingParameters: "compacttight"
             });
-            osmd.load("/output/xml/chords/keysig-D/blues/dom13/Edom13.xml").then(function() {
+            osmd.load("http://localhost:8000/output/xml/chords/keysig-D/blues/dom13/Edom13.xml").then(function() {
                 osmd.render();
             });
         });
