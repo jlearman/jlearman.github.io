@@ -5,7 +5,7 @@
   <identification>
     <creator type="composer">Music21</creator>
     <encoding>
-      <encoding-date>2025-03-19</encoding-date>
+      <encoding-date>2025-06-19</encoding-date>
       <software>music21 v.9.3.0</software>
     </encoding>
   </identification>
@@ -16,15 +16,15 @@
     </scaling>
   </defaults>
   <part-list>
-    <score-part id="P2bd993f43a24691646a55aa4a929c37a">
+    <score-part id="P681f2b387f9f31180a3297957934b9a4">
       <part-name />
     </score-part>
-    <score-part id="P92bc048002dd20d769cc88857b878b76">
+    <score-part id="Pdd8f5536bbd4f4e2bd8a93be60419470">
       <part-name />
     </score-part>
   </part-list>
   <!--=========================== Part 1 ===========================-->
-  <part id="P2bd993f43a24691646a55aa4a929c37a">
+  <part id="P681f2b387f9f31180a3297957934b9a4">
     <!--========================= Measure 1 ==========================-->
     <measure implicit="no" number="1">
       <attributes>
@@ -44,7 +44,7 @@
       <note>
         <pitch>
           <step>G</step>
-          <octave>4</octave>
+          <octave>3</octave>
         </pitch>
         <duration>10080</duration>
         <type>quarter</type>
@@ -54,7 +54,7 @@
         <pitch>
           <step>B</step>
           <alter>0</alter>
-          <octave>4</octave>
+          <octave>3</octave>
         </pitch>
         <duration>10080</duration>
         <type>quarter</type>
@@ -65,7 +65,7 @@
         <pitch>
           <step>C</step>
           <alter>1</alter>
-          <octave>5</octave>
+          <octave>4</octave>
         </pitch>
         <duration>10080</duration>
         <type>quarter</type>
@@ -76,7 +76,7 @@
         <pitch>
           <step>E</step>
           <alter>0</alter>
-          <octave>5</octave>
+          <octave>4</octave>
         </pitch>
         <duration>10080</duration>
         <type>quarter</type>
@@ -93,7 +93,7 @@
     </measure>
   </part>
   <!--=========================== Part 2 ===========================-->
-  <part id="P92bc048002dd20d769cc88857b878b76">
+  <part id="Pdd8f5536bbd4f4e2bd8a93be60419470">
     <!--========================= Measure 1 ==========================-->
     <measure implicit="no" number="1">
       <attributes>
@@ -114,7 +114,7 @@
         <pitch>
           <step>A</step>
           <alter>0</alter>
-          <octave>3</octave>
+          <octave>2</octave>
         </pitch>
         <duration>10080</duration>
         <type>quarter</type>

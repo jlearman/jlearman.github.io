@@ -5,7 +5,7 @@
   <identification>
     <creator type="composer">Music21</creator>
     <encoding>
-      <encoding-date>2025-03-19</encoding-date>
+      <encoding-date>2025-06-19</encoding-date>
       <software>music21 v.9.3.0</software>
     </encoding>
   </identification>
@@ -16,15 +16,15 @@
     </scaling>
   </defaults>
   <part-list>
-    <score-part id="P1ea69d700685e48dfb122008a725f3e2">
+    <score-part id="P5dd28a91c0524cdc836d9fa58877eac0">
       <part-name />
     </score-part>
-    <score-part id="Pe59cf0a2742081cedf53d6710473f934">
+    <score-part id="P7efc462edf317b01d27f905f1c25c442">
       <part-name />
     </score-part>
   </part-list>
   <!--=========================== Part 1 ===========================-->
-  <part id="P1ea69d700685e48dfb122008a725f3e2">
+  <part id="P5dd28a91c0524cdc836d9fa58877eac0">
     <!--========================= Measure 1 ==========================-->
     <measure implicit="no" number="1">
       <attributes>
@@ -44,7 +44,7 @@
       <note>
         <pitch>
           <step>F</step>
-          <octave>4</octave>
+          <octave>3</octave>
         </pitch>
         <duration>10080</duration>
         <type>quarter</type>
@@ -54,7 +54,7 @@
         <pitch>
           <step>B</step>
           <alter>0</alter>
-          <octave>4</octave>
+          <octave>3</octave>
         </pitch>
         <duration>10080</duration>
         <type>quarter</type>
@@ -65,7 +65,7 @@
         <pitch>
           <step>D</step>
           <alter>0</alter>
-          <octave>5</octave>
+          <octave>4</octave>
         </pitch>
         <duration>10080</duration>
         <type>quarter</type>
@@ -82,7 +82,7 @@
     </measure>
   </part>
   <!--=========================== Part 2 ===========================-->
-  <part id="Pe59cf0a2742081cedf53d6710473f934">
+  <part id="P7efc462edf317b01d27f905f1c25c442">
     <!--========================= Measure 1 ==========================-->
     <measure implicit="no" number="1">
       <attributes>
@@ -103,7 +103,7 @@
         <pitch>
           <step>G</step>
           <alter>0</alter>
-          <octave>3</octave>
+          <octave>2</octave>
         </pitch>
         <duration>10080</duration>
         <type>quarter</type>
