@@ -1,0 +1,14 @@
+::1 - - [28/Feb/2025 16:08:12] "GET /output/ HTTP/1.1" 200 -
+::1 - - [28/Feb/2025 16:08:12] code 404, message File not found
+::1 - - [28/Feb/2025 16:08:12] "GET /favicon.ico/ HTTP/1.1" 404 -
+::1 - - [28/Feb/2025 16:08:16] "GET / HTTP/1.1" 200 -
+::1 - - [28/Feb/2025 16:08:19] "GET / HTTP/1.1" 304 -
+::1 - - [28/Feb/2025 16:08:21] "GET /output/html HTTP/1.1" 301 -
+::1 - - [28/Feb/2025 16:08:21] "GET /output/html/ HTTP/1.1" 200 -
+::1 - - [28/Feb/2025 16:08:21] code 404, message File not found
+::1 - - [28/Feb/2025 16:08:21] "GET /output/images/blank.gif HTTP/1.1" 404 -
+::ffff:127.0.0.1 - - [28/Feb/2025 16:08:44] "GET / HTTP/1.1" 200 -
+::1 - - [28/Feb/2025 16:10:45] "GET /output/ HTTP/1.1" 200 -
+::1 - - [28/Feb/2025 16:12:31] "GET /output/ HTTP/1.1" 200 -
+::1 - - [28/Feb/2025 16:12:35] code 404, message File not found
+::1 - - [28/Feb/2025 16:12:35] "GET /favicon.ico/ HTTP/1.1" 404 -
