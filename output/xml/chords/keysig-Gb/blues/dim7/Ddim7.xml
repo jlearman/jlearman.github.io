@@ -42,12 +42,13 @@
       </attributes>
       <note>
         <pitch>
-          <step>C</step>
-          <alter>-1</alter>
-          <octave>4</octave>
+          <step>B</step>
+          <alter>0</alter>
+          <octave>3</octave>
         </pitch>
         <duration>10080</duration>
         <type>quarter</type>
+        <accidental>natural</accidental>
       </note>
       <note>
         <chord />

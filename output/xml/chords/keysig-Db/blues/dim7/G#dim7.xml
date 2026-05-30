@@ -42,11 +42,13 @@
       </attributes>
       <note>
         <pitch>
-          <step>F</step>
+          <step>E</step>
+          <alter>1</alter>
           <octave>3</octave>
         </pitch>
         <duration>10080</duration>
         <type>quarter</type>
+        <accidental>sharp</accidental>
       </note>
       <note>
         <chord />
