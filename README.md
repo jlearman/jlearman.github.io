@@ -39,7 +39,15 @@ pip install -r requirements.txt
 pip freeze > requirements.txt
 ```
 
-### Rebuild indexes after importing from `music-generator` repo
+### Import from `music-generator` repo
+
+Do this after creating the flashcard set in the music-generator repo:
+
+```
+./update.sh <music-generator-repo-dir>
+```
+
+### Rebuild indexes after importing from `music-generator` repo (no longer used)
 
 ```
 python mkindex.py output/html
@@ -49,6 +57,6 @@ python mkindex.py output/html
 
 - [x] install node.js & npm (and document as requirement in README)
 - [x] learn how to import a javascript package (https://stackoverflow.com/questions/68528718/javascript-import-npm-packages)
-- [x] build htmll indexes
+- [x] build html indexes (later removed, weren't useful)
 - [ ] trivial application of https://www.npmjs.com/package/@stringsync/musicxml
 
