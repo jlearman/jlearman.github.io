@@ -14,6 +14,7 @@
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             var osmd = new opensheetmusicdisplay.OpenSheetMusicDisplay("osmdContainer");
+            osmd.rules.RenderTimeSignatures = false;
             osmd.setOptions({
                 backend: "svg",
                 drawTitle: false,
