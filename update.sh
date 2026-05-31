@@ -18,5 +18,5 @@ set -ex
 rsync -au --checksum $VERBOSE $DRY $DELETE $SRC/xml/ $DST/xml/ | grep -v "/$"
 rsync -au --checksum $VERBOSE $DRY $DELETE $SRC/html/ $DST/html/ | grep -v "/$"
 
-# the indexes really aren't helpful
-# python3 mkindex.py output/html
+# rebuild index files.  Github won't display a directory index.
+python3 mkindex.py output/html
